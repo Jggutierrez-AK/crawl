@@ -1,0 +1,91 @@
+.h1 {
+  /* Positioning */
+  padding: 15px;
+  margin-bottom: 15px;
+  
+  /* Typography */
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+
+  /* Visual */
+  background-color: gray;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
+}
+
+.list ul {  
+  /* Positioning */
+  position: relative;
+  width: 100%;
+}
+
+.list li {
+  /* Visual */
+  display: inline-table;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 10px;
+  width: 30%;
+}
+
+.item {
+  /* Positioning */
+  padding: 0px;
+}
+
+.item h2{
+  /* Positioning */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.item hr{
+  /* Positioning */
+  margin: initial;
+}
+
+.item p {
+  /* Typography */
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  
+  /* Visual */
+  text-align: justify;
+  display: inline-block;
+  vertical-align: middle;
+  width: 55%;
+}
+
+.item img {
+  /* Visual */
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+}
+
+.item button {
+  /* Positioning */
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+
+  /* Visual */
+  background-color: black;
+  border-radius: 25px;
+  color: whitesmoke;
+  font-size: 15px;
+  width: 190px;
+  height: 40px;
+  border: none;
+}
+
+.item strong{
+  /* Positioning */
+  display: inline-block;
+  vertical-align: middle;
+}
