@@ -18,7 +18,8 @@
 
 .list ul {  
   /* Positioning */
-  position: relative;
+  position: initial;
+  padding: 0;
   width: 100%;
 }
 
@@ -28,8 +29,8 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
-  margin-right: 10px;
-  width: 30%;
+  margin-right: 25px;
+  width: 31%;
 }
 
 .item {
@@ -45,10 +46,15 @@
 
 .item hr{
   /* Positioning */
-  margin: initial;
+  margin-top: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item p {
+  /* Positioning */
+
   /* Typography */
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
@@ -61,6 +67,9 @@
 }
 
 .item img {
+  /* Positioning */
+  margin-right: 5px;
+
   /* Visual */
   display: inline-block;
   vertical-align: middle;
@@ -79,7 +88,7 @@
   border-radius: 25px;
   color: whitesmoke;
   font-size: 15px;
-  width: 190px;
+  width: 200px;
   height: 40px;
   border: none;
 }
