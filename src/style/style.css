@@ -1,7 +1,7 @@
 .h1 {
   /* Positioning */
-  padding: 15px;
-  margin-bottom: 15px;
+  padding: 1%;
+  margin: 0;
   
   /* Typography */
   font-family: "Titillium Web", sans-serif;
@@ -10,6 +10,8 @@
   text-align: center;
 
   /* Visual */
+  box-sizing: border-box;
+  width: 100%;
   background-color: gray;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
@@ -18,48 +20,55 @@
 
 .list ul {  
   /* Positioning */
-  position: initial;
-  padding: 0;
-  width: 100%;
+  padding: 1%;
+  margin-top: 5px;
+
+  /* Visual */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .list li {
   /* Visual */
-  display: inline-table;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: 25px;
+  align-self: flex-start;
+  order: 3;
+  display: inline-flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
   width: 31%;
+  margin-top: 10px;
 }
 
 .item {
   /* Positioning */
   padding: 0px;
+
+  /* Visual */
+  margin-bottom: 15px;
 }
 
 .item h2{
-  /* Positioning */
+  /* Visual */
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 .item hr{
-  /* Positioning */
-  margin-top: auto;
+  /* Visual */
   margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .item p {
-  /* Positioning */
-
   /* Typography */
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
   
   /* Visual */
+  padding: 5px;
   text-align: justify;
   display: inline-block;
   vertical-align: middle;
@@ -67,34 +76,34 @@
 }
 
 .item img {
-  /* Positioning */
-  margin-right: 5px;
-
   /* Visual */
+  margin-right: 5px;
   display: inline-block;
   vertical-align: middle;
-  width: 150px;
-  height: 150px;
+  width: 40%;
 }
 
 .item button {
   /* Positioning */
-  margin-left: 20px;
-  display: inline-block;
+  padding: 3%;
   vertical-align: middle;
 
   /* Visual */
+  margin-left: 15px;
+  display: inline-block;
   background-color: black;
   border-radius: 25px;
   color: whitesmoke;
   font-size: 15px;
-  width: 200px;
-  height: 40px;
+  width: 55%;
   border: none;
 }
 
 .item strong{
   /* Positioning */
-  display: inline-block;
   vertical-align: middle;
+
+  /* Visual */
+  display: inline-block;
+  width: 40%;
 }
