@@ -15,7 +15,7 @@
   box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
 }
 
-.container ul {  
+.grid ul {  
   padding: 5%;
   margin-top: 5px;
 
@@ -23,10 +23,11 @@
   justify-content: center;
   flex-flow: column wrap;
   background-color: #D3D3D3;
+  list-style-type: none;
   width: 90%;
 }
 
-.container li {
+.grid li {
   align-self: center;
   padding: 5px;
   width: 95%;
@@ -75,10 +76,10 @@
   padding: 3%;
   vertical-align: middle;
 
-  margin-left: 15px;
+  margin-left: 20px;
   display: inline-block;
   background-color: black;
-  border-radius: 25px;
+  border-radius: 50px;
   color: whitesmoke;
   font-size: 37px;
   width: 55%;
@@ -91,4 +92,77 @@
   display: inline-block;
   font-size: 37px;
   width: 40%;
+}
+
+@media only screen 
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1280px) {
+    .grid ul{
+      justify-content: space-between;
+      flex-flow: row wrap;
+      list-style: none;
+      width: 90%;
+    }
+    .grid li{
+      align-self: flex-start;
+      padding: 0;
+      width: 31%;
+    }
+    .item h2{
+      font-size: 200%;
+    }
+    .item .body p {
+      font-size: 90%;
+      width: 48%;
+    }
+    .item .body img {
+      width: 45%;
+      height: 165px;
+    }
+    .item .footer button {
+      border-radius: 50px;
+      font-size: 17px;
+      width: 50%;
+    }
+    .item .footer strong{
+      font-size: 17px;
+      width: 40%;
+    }    
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1080px) {
+    .grid ul{
+      flex-wrap: wrap;
+    }
+    .grid li{
+      align-self: flex-start;
+      padding: 0;
+      width: 100%;
+    }
+    .item h2{
+      font-size: 35px;
+    }
+    .item .body {
+      margin-bottom: 25px;
+    }
+    .item .body p {
+      font-size: 22.5px;
+      width: 50%;
+      margin-left: 25px;
+    }  
+    .item .body img {
+      width: 175px;
+      height: 175px;
+    }
+    .item .footer button {
+      border-radius: 50px;
+      font-size: 20px;
+      width: 30%;
+    }
+    .item .footer strong{
+      font-size: 30px;
+      width: 50%;
+    } 
 }
