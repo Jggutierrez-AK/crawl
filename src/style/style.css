@@ -56,20 +56,21 @@
 
 .item .body p {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 36px;
+  font-size: 33px;
+  margin-left: 12px;
   
   padding: 5px;
   text-align: justify;
   display: inline-block;
   vertical-align: middle;
-  width: 49%;
+  width: 50%;
 }
 
 .item .body img {
   display: inline-block;
   vertical-align: middle;
   border: 1px solid black;
-  width: 47%;
+  width: 46%;
 }
 
 .item .footer button {
@@ -109,10 +110,11 @@
       width: 31%;
     }
     .item h2{
-      font-size: 200%;
+      font-size: 28px;
     }
     .item .body p {
       font-size: 90%;
+      margin-left: 0;
       width: 48%;
     }
     .item .body img {
@@ -162,7 +164,7 @@
       width: 30%;
     }
     .item .footer strong{
-      font-size: 30px;
+      font-size: 25px;
       width: 50%;
     } 
 }
