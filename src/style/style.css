@@ -1,9 +1,9 @@
 .h1 {
-  padding: 1%;
+  padding: 2%;
   margin: 0;
-  
+
   font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
+  font-size: 50px;
   color: #000;
   text-align: center;
 
@@ -15,63 +15,63 @@
   box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
 }
 
-.list ul {  
-  padding: 1%;
+.container ul {  
+  padding: 5%;
   margin-top: 5px;
 
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
+  flex-flow: column wrap;
   background-color: #D3D3D3;
-  align-items: flex-start;
+  width: 90%;
 }
 
-.list li {
-  align-self: flex-start;
-  display: inline-flex;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-  justify-content: center;
+.container li {
+  align-self: center;
   padding: 5px;
   width: 95%;
   margin-top: 10px;
 }
 
 .item {
-  padding: 0;
+  padding: 2%;
   margin-bottom: 15px;
 }
 
 .item h2{
   margin: 5px 0;
+  font-size: 50px;
 }
 
 .item hr{
-  margin-bottom: 0;
   color: #000;
   background-color: #000;
-  height: 1px;
+  height: 2px;
 }
 
-.item p {
+.item .body {
+  margin: 0;
+}
+
+.item .body p {
   font-family: "Libre Franklin", sans-serif;
-  font-weight: 400;
+  font-size: 36px;
   
   padding: 5px;
   text-align: justify;
   display: inline-block;
   vertical-align: middle;
-  width: 55%;
+  width: 49%;
 }
 
-.item img {
+.item .body img {
   display: inline-block;
   vertical-align: middle;
   border: 1px solid black;
-  width: 40%;
+  width: 47%;
 }
 
-.item button {
+.item .footer button {
   padding: 3%;
   vertical-align: middle;
 
@@ -80,14 +80,15 @@
   background-color: black;
   border-radius: 25px;
   color: whitesmoke;
-  font-size: 15px;
+  font-size: 37px;
   width: 55%;
   border: none;
 }
 
-.item strong{
+.item .footer strong{
   vertical-align: middle;
 
   display: inline-block;
+  font-size: 37px;
   width: 40%;
 }
