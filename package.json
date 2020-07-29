@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jggutierrez-AK/training/issues"
   },
-  "homepage": "https://github.com/Jggutierrez-AK/training#readme"
+  "homepage": "https://github.com/Jggutierrez-AK/training#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
