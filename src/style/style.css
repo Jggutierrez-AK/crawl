@@ -21,7 +21,9 @@
   list-style-type: none;
   margin-top: 5px;
   padding: 5%;
-  width: 89.5%;
+  position: relative;
+  left: 2px;
+  width: 89.6%;
 }
 .grid__item {
   align-self: center;
@@ -159,5 +161,3 @@
     width: 42%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

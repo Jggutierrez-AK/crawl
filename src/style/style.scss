@@ -29,7 +29,9 @@ $pixels: 5px;
   list-style-type: none;
   margin-top: $pixels;
   padding: 5%;
-  width: 89.5%;
+  position: relative;
+  left: 2px;
+  width: 89.6%;
 
   &__item {
     $block: inline-block;
