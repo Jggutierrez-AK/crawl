@@ -119,6 +119,7 @@
     width: 55%;
   }
 }
+
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1280px) {
   .grid {
     justify-content: space-between;
@@ -160,4 +161,3 @@
     font-size: 16px;
     width: 42%;
   }
-}
