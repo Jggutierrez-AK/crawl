@@ -137,6 +137,9 @@
   and (max-device-width: 1080px) {
     .grid ul{
       flex-wrap: wrap;
+      position: relative;
+      left: 2px;
+      width: 89.75%;
     }
     .grid li{
       align-self: flex-start;
