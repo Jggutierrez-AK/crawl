@@ -1,8 +1,8 @@
 {
   "name": "training",
   "version": "1.0.0",
-  "description": "base project with gulp to web develop",
-  "main": "index.js",
+  "description": "web project with gulp",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Jggutierrez-AK/training.git"
   },
-  "author": "Gerardo",
+  "author": "gerardo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jggutierrez-AK/training/issues"
   },
   "homepage": "https://github.com/Jggutierrez-AK/training#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
   }
 }
