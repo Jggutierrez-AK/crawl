@@ -1,8 +1,17 @@
 {
   "name": "training",
   "version": "1.0.0",
-  "description": "web project with gulp",
+  "description": "web app with gulp - sass - html",
   "main": "gulpfile.js",
+  "dependencies": {
+    "fibers": "^5.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "sass": "^1.26.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,20 +24,5 @@
   "bugs": {
     "url": "https://github.com/Jggutierrez-AK/training/issues"
   },
-  "homepage": "https://github.com/Jggutierrez-AK/training#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.12",
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-cache": "^1.1.3",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^4.0.1",
-    "gulp4-run-sequence": "^1.0.1",
-    "run-sequence": "^2.2.1"
-  },
-  "dependencies": {
-    "gulp-cssnano": "^2.1.3"
-  }
+  "homepage": "https://github.com/Jggutierrez-AK/training#readme"
 }

@@ -10,7 +10,8 @@
   object-position: center;
   padding: 2%;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .grid {
   background-color: #d4d4d4;
@@ -22,79 +23,102 @@
   padding: 5%;
   position: relative;
   left: 2px;
-  width: 89.6%; }
-  .grid__item {
-    align-self: center;
-    margin: 5px 0;
-    padding: 5px;
-    width: 95%; }
-    .grid__item__title {
-      margin: 5px 0;
-      font-size: 50px; }
-    .grid__item__separator {
-      background-color: black;
-      color: black;
-      height: 2px; }
-    .grid__item__content {
-      margin: 5px 0; }
-      .grid__item__content__description {
-        display: inline-block;
-        font-family: "Libre Franklin", sans-serif;
-        font-size: 33px;
-        margin-left: 5px;
-        padding: 5px;
-        text-align: justify;
-        vertical-align: middle;
-        width: 50%; }
-      .grid__item__content__image {
-        border: 1px solid black;
-        display: inline-block;
-        vertical-align: middle;
-        width: 46%; }
-    .grid__item__footer {
-      margin: 15px 0; }
-      .grid__item__footer__buttom {
-        background-color: black;
-        border: none;
-        border-radius: 50px;
-        color: whitesmoke;
-        display: inline-block;
-        font-size: 37px;
-        margin-left: 30px;
-        padding: 3%;
-        vertical-align: middle;
-        width: 55%; }
-      .grid__item__footer__note {
-        display: inline-block;
-        font-size: 37px;
-        vertical-align: middle;
-        width: 40%; }
+  width: 89.6%;
+}
+.grid__item {
+  align-self: center;
+  margin: 5px 0;
+  padding: 5px;
+  width: 95%;
+}
+.grid__title {
+  margin: 5px 0;
+  font-size: 50px;
+}
+.grid__separator {
+  background-color: black;
+  color: black;
+  height: 2px;
+}
+.grid__content {
+  margin: 5px 0;
+}
+.grid__description {
+  display: inline-block;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 33px;
+  margin-left: 5px;
+  padding: 5px;
+  text-align: justify;
+  vertical-align: middle;
+  width: 50%;
+}
+.grid__image {
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+  width: 46%;
+}
+.grid__footer {
+  margin: 15px 0;
+}
+.grid__buttom {
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  color: whitesmoke;
+  display: inline-block;
+  font-size: 37px;
+  margin-left: 30px;
+  padding: 3%;
+  vertical-align: middle;
+  width: 55%;
+}
+.grid__note {
+  display: inline-block;
+  font-size: 37px;
+  vertical-align: middle;
+  width: 40%;
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
   .grid {
     flex-wrap: wrap;
     position: relative;
-    left: 3px; }
+    left: 3px;
+  }
+
   .grid__item {
     align-self: flex-start;
     padding: 0;
-    width: 100%; }
-  .grid__item__title {
-    font-size: 35px; }
-  .grid__item__content__description {
-    font-size: 26px;
+    width: 100%;
+  }
+
+  .grid__title {
+    font-size: 35px;
+  }
+
+  .grid__description {
+    font-size: 22px;
     margin-left: 15px;
-    width: 55%; }
-  .grid__item__content__image {
-    width: 40%; }
-  .grid__item__footer__buttom {
+    width: 60%;
+  }
+
+  .grid__image {
+    width: 30%;
+  }
+
+  .grid__buttom {
     border-radius: 50px;
     font-size: 20px;
-    width: 40%; }
-  .grid__item__footer__note {
-    font-size: 27px;
-    width: 55%; } }
+    width: 30%;
+  }
 
+  .grid__note {
+    font-size: 27px;
+    width: 55%;
+  }
+}
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1280px) {
   .grid {
     justify-content: space-between;
@@ -102,24 +126,38 @@
     list-style: none;
     position: relative;
     left: 3px;
-    width: 89.55%; }
+    width: 89.55%;
+  }
+
   .grid__item {
     align-self: flex-start;
     padding: 0;
-    width: 31.5%; }
-  .grid__item__title {
-    font-size: 28px; }
-  .grid__item__content__description {
+    width: 31.5%;
+  }
+
+  .grid__title {
+    font-size: 29px;
+  }
+
+  .grid__description {
     font-size: 82.5%;
     margin-left: 0;
-    width: 47%; }
-  .grid__item__content__image {
     width: 47%;
-    height: 150px; }
-  .grid__item__footer__buttom {
+  }
+
+  .grid__image {
+    width: 47%;
+    height: 150px;
+  }
+
+  .grid__buttom {
     border-radius: 50px;
     font-size: 16px;
-    width: 45%; }
-  .grid__item__footer__note {
+    width: 45%;
+  }
+
+  .grid__note {
     font-size: 16px;
-    width: 42%; } }
+    width: 42%;
+  }
+}
