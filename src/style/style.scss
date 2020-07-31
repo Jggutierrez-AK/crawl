@@ -22,6 +22,10 @@ $pixels: 5px;
 }
 
 .grid {  
+  $margin-props: $pixels 0;
+  $block: inline-block; 
+  $vertical: middle;
+
   background-color: rgb(212, 212, 212);
   display: flex;
   flex-flow: column wrap;
@@ -34,72 +38,68 @@ $pixels: 5px;
   width: 89.6%;
 
   &__item {
-    $block: inline-block;
-    $margin-props: $pixels 0; 
-    $vertical: middle;
-
     align-self: $align;
     margin: $margin-props;
     padding: $pixels;
     width: 95%;
+  }
 
-    &__title {
-      margin: $margin-props;
-      font-size: 50px;
-    }
+  &__title {
+    margin: $margin-props;
+    font-size: 50px;
+  }
 
-    &__separator {
-      background-color: $color-black;
-      color: $color-black;
-      height: 2px;
-    }
+  &__separator {
+    background-color: $color-black;
+    color: $color-black;
+    height: 2px;
+  }
 
-    &__content {
-      margin: $margin-props;
+  &__content {
+    margin: $margin-props;
+  }
 
-      &__description {
-        display: $block;  
-        font-family: "Libre Franklin", sans-serif;
-        font-size: 33px;
-        margin-left: $pixels;
-        padding: $pixels;
-        text-align: justify;
-        vertical-align: $vertical;
-        width: 50%;
-      }
+  &__description {
+    display: $block;  
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 33px;
+    margin-left: $pixels;
+    padding: $pixels;
+    text-align: justify;
+    vertical-align: $vertical;
+    width: 50%;
+  }
       
-      &__image {
-        border: 1px solid $color-black;
-        display: $block;
-        vertical-align: $vertical;
-        width: 46%;
-      }
-    }
+  &__image {
+    border: 1px solid $color-black;
+    display: $block;
+    vertical-align: $vertical;
+    width: 46%;
+  }
 
-    &__footer {
-      $margin-props: 15px 0;
-      margin: $margin-props;
+  &__footer {
+    $margin-props: 15px 0;
+    margin: $margin-props;
+  }
       
-      &__buttom {
-        background-color: rgb(0, 0, 0);
-        border: none;
-        border-radius: 50px;
-        color: rgb(245, 245, 245);
-        display: $block;
-        font-size: 37px;
-        margin-left: 30px;
-        padding: 3%;
-        vertical-align: $vertical;
-        width: 55%; 
-      }
+  &__buttom {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    color: rgb(245, 245, 245);
+    display: $block;
+    font-size: 37px;
+    margin-left: 30px;
+    padding: 3%;
+    vertical-align: $vertical;
+    width: 55%; 
+  }
   
-      &__note {
-        display: $block;
-        font-size: 37px;  
-        vertical-align: middle;
-        width: 40%;
-      }
-    }
+  &__note {
+    display: $block;
+    font-size: 37px;  
+    vertical-align: middle;
+    width: 40%;
   }
 }
 
@@ -117,24 +117,24 @@ $pixels: 5px;
       padding: 0;
       width: 100%;
     }
-    .grid__item__title{
-      font-size: 35px;
+    .grid__title{
+      font-size: 37px;
     }
 
-    .grid__item__content__description{
-      font-size: 26px;
+    .grid__description{
+      font-size: 22px;
       margin-left: 15px;
       width: 55%;
     }  
-    .grid__item__content__image{
-      width: 40%;
+    .grid__image{
+      width: 30%;
     }
-    .grid__item__footer__buttom{
+    .grid__buttom{
       border-radius: 50px;
       font-size: 20px;
-      width: 40%;
+      width: 35%;
     }
-    .grid__item__footer__note{
+    .grid__note{
       font-size: 27px;
       width: 55%;
     } 
@@ -158,24 +158,24 @@ $pixels: 5px;
       padding: 0;
       width: 31.5%;
     }
-    .grid__item__title{
-      font-size: 28px;
+    .grid__title{
+      font-size: 20px;
     }
-    .grid__item__content__description {
+    .grid__description {
       font-size: 82.5%;
       margin-left: 0;
       width: 47%;
     }
-    .grid__item__content__image {
+    .grid__image {
       width: 47%;
       height: 150px;
     }
-    .grid__item__footer__buttom {
+    .grid__buttom {
       border-radius: 50px;
       font-size: 16px;
       width: 45%;
     }
-    .grid__item__footer__note {
+    .grid__note {
       font-size: 16px;
       width: 42%;
     }    

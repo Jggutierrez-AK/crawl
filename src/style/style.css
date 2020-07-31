@@ -31,19 +31,19 @@
   padding: 5px;
   width: 95%;
 }
-.grid__item__title {
+.grid__title {
   margin: 5px 0;
   font-size: 50px;
 }
-.grid__item__separator {
+.grid__separator {
   background-color: black;
   color: black;
   height: 2px;
 }
-.grid__item__content {
+.grid__content {
   margin: 5px 0;
 }
-.grid__item__content__description {
+.grid__description {
   display: inline-block;
   font-family: "Libre Franklin", sans-serif;
   font-size: 33px;
@@ -53,16 +53,16 @@
   vertical-align: middle;
   width: 50%;
 }
-.grid__item__content__image {
+.grid__image {
   border: 1px solid black;
   display: inline-block;
   vertical-align: middle;
   width: 46%;
 }
-.grid__item__footer {
+.grid__footer {
   margin: 15px 0;
 }
-.grid__item__footer__buttom {
+.grid__buttom {
   background-color: black;
   border: none;
   border-radius: 50px;
@@ -74,7 +74,7 @@
   vertical-align: middle;
   width: 55%;
 }
-.grid__item__footer__note {
+.grid__note {
   display: inline-block;
   font-size: 37px;
   vertical-align: middle;
@@ -94,32 +94,31 @@
     width: 100%;
   }
 
-  .grid__item__title {
-    font-size: 35px;
+  .grid__title {
+    font-size: 37px;
   }
 
-  .grid__item__content__description {
-    font-size: 26px;
+  .grid__description {
+    font-size: 22px;
     margin-left: 15px;
     width: 55%;
   }
 
-  .grid__item__content__image {
-    width: 40%;
+  .grid__image {
+    width: 30%;
   }
 
-  .grid__item__footer__buttom {
+  .grid__buttom {
     border-radius: 50px;
     font-size: 20px;
-    width: 40%;
+    width: 35%;
   }
 
-  .grid__item__footer__note {
+  .grid__note {
     font-size: 27px;
     width: 55%;
   }
 }
-
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1280px) {
   .grid {
     justify-content: space-between;
@@ -136,29 +135,31 @@
     width: 31.5%;
   }
 
-  .grid__item__title {
-    font-size: 28px;
+  .grid__title {
+    font-size: 20px;
   }
 
-  .grid__item__content__description {
+  .grid__description {
     font-size: 82.5%;
     margin-left: 0;
     width: 47%;
   }
 
-  .grid__item__content__image {
+  .grid__image {
     width: 47%;
     height: 150px;
   }
 
-  .grid__item__footer__buttom {
+  .grid__buttom {
     border-radius: 50px;
     font-size: 16px;
     width: 45%;
   }
 
-  .grid__item__footer__note {
+  .grid__note {
     font-size: 16px;
     width: 42%;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
