@@ -1,44 +1,114 @@
-.title {
-  background-color: #707070;
-  border: 2px solid rgba(229, 229, 229, 0.89);
-  border-radius: 5px;
-  box-shadow: 0 2px 2px black inset 0 0 1px black;
-  box-sizing: border-box;
-  margin: 5px 0;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 50px;
-  object-position: center;
-  padding: 2%;
-  text-align: center;
+.topnav {
+  position: relative;
+  right: 8px;
+  bottom: 8px;
+  background-color: black;
+  width: 104.51%;
+  height: 70px;
+}
+.topnav__image {
+  position: relative;
+  bottom: 130%;
+  left: 2%;
+  width: 50%;
+}
+.topnav__hamburger {
+  position: relative;
+  left: 35%;
+  bottom: 66%;
+  width: 10%;
+  fill: white;
+  padding: 1%;
+}
+
+.banner {
+  position: relative;
+  right: 8px;
+  bottom: 8px;
+  width: 104.51%;
+  height: 251px;
+}
+.banner__image {
   width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-image: url("../../assets/banner-mobile.png");
+}
+
+.content {
+  width: 95%;
+  height: 175px;
+}
+.content__title {
+  width: 100%;
+  padding: 3%;
+  font-family: Arial;
+  font-size: 140%;
+  line-height: 28px;
+  color: black;
+}
+.content__searchBar {
+  width: 90%;
+  padding: 3%;
+  margin-top: -3%;
+  margin-left: 4.5%;
+  background-color: transparent;
+  border: 1px groove gray;
+  border-radius: 50px;
+}
+.content__input {
+  position: relative;
+  bottom: 3px;
+  left: 5px;
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  font-family: Arial;
+  font-size: 130%;
+  line-height: 21px;
+  color: #8e8e8e;
+}
+.content__button {
+  position: relative;
+  top: 5px;
+  left: 25px;
+  background-image: url("../../assets/search.png");
+  background-color: transparent;
+  background-size: contain;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+.content__button--click {
+  background-color: transparent;
 }
 
 .grid {
-  background-color: #d4d4d4;
+  background-color: white;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   list-style-type: none;
   margin-top: 5px;
-  padding: 5%;
-  position: relative;
-  left: 2px;
-  width: 89.6%;
+  width: 90%;
 }
 .grid__item {
+  position: relative;
+  top: 0;
+  right: 22px;
   align-self: center;
+  width: 100%;
   margin: 5px 0;
-  padding: 5px;
-  width: 95%;
 }
 .grid__title {
-  margin: 5px 0;
-  font-size: 50px;
+  font-family: Arial;
+  font-size: 110%;
+  line-height: 21px;
+  color: black;
 }
 .grid__separator {
-  background-color: black;
-  color: black;
-  height: 2px;
+  border: 1px solid #D8D8D8;
+  width: 100%;
 }
 .grid__content {
   margin: 5px 0;
@@ -46,39 +116,53 @@
 .grid__description {
   display: inline-block;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 33px;
-  margin-left: 5px;
-  padding: 5px;
+  font-size: 85%;
+  margin-left: 9px;
   text-align: justify;
   vertical-align: middle;
-  width: 50%;
+  width: 55%;
 }
 .grid__image {
-  border: 1px solid black;
+  border: none;
   display: inline-block;
   vertical-align: middle;
-  width: 46%;
+  width: 40%;
 }
 .grid__footer {
-  margin: 15px 0;
+  margin: 5px 0;
 }
 .grid__buttom {
   background-color: black;
   border: none;
-  border-radius: 50px;
+  border-radius: 30px;
   color: whitesmoke;
   display: inline-block;
-  font-size: 37px;
-  margin-left: 30px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 9px;
   padding: 3%;
   vertical-align: middle;
   width: 55%;
 }
 .grid__note {
   display: inline-block;
-  font-size: 37px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16px;
   vertical-align: middle;
   width: 40%;
+}
+
+.footer {
+  position: relative;
+  right: 8px;
+  bottom: 8px;
+  width: 100.55%;
+  padding: 2%;
+  font-size: 115%;
+  color: white;
+  background: #000000;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
