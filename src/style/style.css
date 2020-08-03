@@ -87,33 +87,27 @@
     position: relative;
     left: 3px;
   }
-
   .grid__item {
     align-self: flex-start;
     padding: 0;
     width: 100%;
   }
-
-  .grid__title {
-    font-size: 37px;
-  }
-
   .grid__description {
     font-size: 22px;
     margin-left: 15px;
     width: 55%;
   }
-
+  .grid__title {
+    font-size: 37px;
+  }
   .grid__image {
     width: 30%;
   }
-
   .grid__buttom {
     border-radius: 50px;
     font-size: 20px;
     width: 35%;
   }
-
   .grid__note {
     font-size: 27px;
     width: 55%;
@@ -128,34 +122,28 @@
     left: 3px;
     width: 89.55%;
   }
-
   .grid__item {
     align-self: flex-start;
     padding: 0;
     width: 31.5%;
   }
-
   .grid__title {
     font-size: 20px;
   }
-
   .grid__description {
     font-size: 82.5%;
     margin-left: 0;
     width: 47%;
   }
-
   .grid__image {
     width: 47%;
     height: 150px;
   }
-
   .grid__buttom {
     border-radius: 50px;
     font-size: 16px;
     width: 45%;
   }
-
   .grid__note {
     font-size: 16px;
     width: 42%;
