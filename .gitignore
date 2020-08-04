@@ -6,3 +6,5 @@
 *.scss.map
 
 .vscode
+
+.node_modules
