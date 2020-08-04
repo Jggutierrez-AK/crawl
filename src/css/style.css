@@ -1,0 +1,479 @@
+.topnav {
+  position: relative;
+  bottom: 8px;
+  right: 8px;
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+}
+.topnav__image {
+  position: absolute;
+  left: 2%;
+  bottom: 5%;
+  background-size: cover;
+  width: 25vh;
+  height: 70%;
+}
+.topnav__hamburger {
+  position: absolute;
+  right: 3%;
+  background-size: cover;
+  width: 10%;
+  height: 100%;
+  fill: white;
+}
+
+.banner {
+  position: relative;
+  right: 8px;
+  bottom: 8px;
+  width: 100vw;
+  height: 47vh;
+}
+.banner__image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../../assets/banner-mobile.png");
+}
+
+.content {
+  position: relative;
+  left: 5vw;
+  bottom: 0.5vh;
+  width: 90%;
+  height: 175px;
+}
+.content__title {
+  width: 100%;
+  padding: 3%;
+  font-family: Arial;
+  font-size: 1.5em;
+  color: black;
+}
+.content__searchBar {
+  width: 95%;
+  height: 5vw;
+  padding: 3%;
+  margin-top: -3%;
+  margin-right: 2%;
+  background-color: transparent;
+  border: 1px groove gray;
+  border-radius: 50px;
+}
+.content__input {
+  position: relative;
+  bottom: 19px;
+  left: 3px;
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  font-family: Arial;
+  font-size: 1.2em;
+  color: #8e8e8e;
+}
+.content__button {
+  position: relative;
+  bottom: 8px;
+  left: 8.7vw;
+  background-image: url("../../assets/search.png");
+  background-color: transparent;
+  background-size: contain;
+  border: none;
+  width: 35px;
+  height: 35px;
+}
+.content__button--click {
+  background-color: transparent;
+}
+
+.grid {
+  position: relative;
+  bottom: 10px;
+  background-color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 5px;
+  width: 90%;
+}
+.grid__item {
+  position: relative;
+  top: 0;
+  right: 25px;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.grid__title {
+  font-family: Arial;
+  font-size: 1.3em;
+  line-height: 0;
+  color: black;
+}
+.grid__separator {
+  border: 2px solid #D8D8D8;
+  width: 100%;
+}
+.grid__content {
+  margin: 5px 0;
+}
+.grid__description {
+  display: inline-block;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 0.8em;
+  margin-left: 9px;
+  text-align: justify;
+  vertical-align: middle;
+  width: 55%;
+}
+.grid__image {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  height: 21vh;
+}
+.grid__footer {
+  margin: 5px 0;
+}
+.grid__buttom {
+  background-color: black;
+  border: none;
+  border-radius: 45px;
+  color: whitesmoke;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 1em;
+  line-height: 16px;
+  margin-left: 5px;
+  padding: 3%;
+  vertical-align: middle;
+  height: 5vh;
+  width: 45%;
+}
+.grid__note {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 0.95em;
+  line-height: 30px;
+  vertical-align: middle;
+  width: 52%;
+}
+
+.footer {
+  position: relative;
+  right: 8px;
+  bottom: 0;
+  width: 100vw;
+  height: 12vh;
+  color: white;
+  background: #000000;
+}
+.footer__description {
+  position: absolute;
+  left: 3vw;
+  bottom: 4vh;
+  width: 95%;
+  font-size: 0.8em;
+}
+.footer__link {
+  position: absolute;
+  top: 7.5vh;
+  left: 3vw;
+  width: 95%;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
+  .topnav {
+    width: 105vw;
+    height: 10vh;
+  }
+  .topnav__image {
+    position: absolute;
+    left: 2%;
+    bottom: 7%;
+    background-size: cover;
+    width: 20vh;
+    height: 75%;
+  }
+  .topnav__hamburger {
+    position: absolute;
+    right: 3%;
+    background-size: cover;
+    width: 7%;
+    height: 100%;
+    fill: white;
+  }
+
+  .banner {
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+    width: 105vw;
+    height: 55vh;
+  }
+  .banner__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../../assets/banner-mobile.png");
+  }
+
+  .content {
+    position: absolute;
+    left: 5.5%;
+    top: 40%;
+  }
+  .content__title {
+    width: 60%;
+    font-family: Arial;
+    font-size: 2.4em;
+    color: white;
+  }
+  .content__searchBar {
+    width: 90%;
+    padding: 1%;
+    margin-top: -3%;
+    margin-left: 4.5%;
+    background-color: white;
+    border: 1px groove gray;
+    border-radius: 50px;
+  }
+  .content__input {
+    position: relative;
+    bottom: 11px;
+    left: 15px;
+    width: 75%;
+    border: none;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 1.5em;
+    color: #8e8e8e;
+  }
+  .content__button {
+    position: relative;
+    top: 1px;
+    left: 13vw;
+    background-image: url("../../assets/search.png");
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    width: 40px;
+    height: 40px;
+  }
+  .content__button--click {
+    background-color: transparent;
+  }
+
+  .grid {
+    justify-content: space-between;
+    flex-flow: row wrap;
+    list-style: none;
+    left: 2vw;
+    top: 2.5vh;
+    width: 95%;
+  }
+  .grid__item {
+    align-self: flex-start;
+    padding: 0;
+    width: 46%;
+    margin-left: 14px;
+  }
+  .grid__title {
+    font-size: 1.5em;
+  }
+  .grid__separator {
+    border: 1px solid #D8D8D8;
+    width: 100%;
+  }
+  .grid__image {
+    width: 18vw;
+    height: 15vh;
+  }
+  .grid__description {
+    width: 23vw;
+    height: 14vh;
+    font-size: 1rem;
+    margin-left: 7px;
+    line-height: 17px;
+  }
+  .grid__buttom {
+    font-size: 1.2em;
+    margin-left: 0.1vw;
+    padding: 3%;
+    vertical-align: middle;
+    width: 48%;
+    height: 4.5vw;
+  }
+  .grid__note {
+    font-size: 120%;
+    width: 50%;
+  }
+
+  .footer {
+    top: 1vh;
+    width: 105vw;
+    height: 9vh;
+    font-size: 1em;
+  }
+  .footer__description {
+    margin-left: 2vh;
+    position: unset;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.25em;
+    width: 70%;
+  }
+  .footer__link {
+    position: unset;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.25em;
+    width: 25%;
+  }
+}
+@media only screen and (min-device-width: 1080px) and (max-device-width: 1280px) {
+  .topnav {
+    width: 100vw;
+    height: 10vh;
+  }
+  .topnav__image {
+    position: absolute;
+    left: 2%;
+    bottom: 7%;
+    background-size: cover;
+    width: 24vh;
+    height: 75%;
+  }
+  .topnav__hamburger {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    background-size: cover;
+    width: 7%;
+    height: 60%;
+    fill: white;
+  }
+
+  .banner {
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+    width: 100vw;
+    height: 71.5vh;
+  }
+  .banner__image {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-image: url("../../assets/banner.png");
+  }
+
+  .content {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+  }
+  .content__title {
+    width: 75%;
+    font-family: Arial;
+    font-size: 2.3em;
+    color: white;
+  }
+  .content__searchBar {
+    width: 45%;
+    height: 1vh;
+    padding: 2%;
+    margin-top: -3%;
+    margin-left: 2.5%;
+    background-color: white;
+    border: 1px groove gray;
+    border-radius: 50px;
+  }
+  .content__input {
+    position: relative;
+    bottom: 46px;
+    left: -5px;
+    width: 75%;
+    border: none;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 1.5em;
+    color: #8e8e8e;
+  }
+  .content__button {
+    position: relative;
+    bottom: 24px;
+    left: 6vw;
+    background-image: url("../../assets/search.png");
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    width: 60px;
+    height: 60px;
+  }
+  .content__button--click {
+    background-color: transparent;
+  }
+
+  .grid {
+    justify-content: space-between;
+    flex-flow: row wrap;
+    list-style: none;
+    position: relative;
+    left: 3vw;
+    top: 2vh;
+    width: 90%;
+  }
+  .grid__item {
+    align-self: flex-start;
+    padding: 0;
+    width: 31.5%;
+  }
+  .grid__title {
+    font-size: 1.5em;
+  }
+  .grid__description {
+    font-size: 0.9em;
+    margin-left: 12px;
+    width: 52%;
+  }
+  .grid__image {
+    width: 42%;
+    height: 150px;
+  }
+  .grid__buttom {
+    border-radius: 50px;
+    font-size: 16px;
+    width: 48%;
+  }
+  .grid__note {
+    font-size: 1em;
+    line-height: 15px;
+    width: 48%;
+  }
+
+  .footer {
+    top: 1vh;
+    height: 10vh;
+    font-size: 1.2em;
+  }
+  .footer__description {
+    margin-left: 5vh;
+    position: unset;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+    width: 75%;
+  }
+  .footer__link {
+    position: unset;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+    width: 20%;
+  }
+}
