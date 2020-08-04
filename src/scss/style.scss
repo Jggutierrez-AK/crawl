@@ -508,7 +508,7 @@ $vertical: middle;
     
       &__searchBar {
         width: 45%;
-        height: 1vh;
+        height: .1vh;
 
         padding: 2%;
     
@@ -522,8 +522,8 @@ $vertical: middle;
       
       &__input{
         position: relative;
-        bottom: 46px;
-        left: -5px;
+        bottom: 35px;
+        left: 0;
     
         width: 75%;
     
@@ -537,11 +537,11 @@ $vertical: middle;
       }
       
       &__button {
-        $value: 60px;
+        $value: 45px;
     
         position: relative;
-        bottom: 24px;
-        left: 6vw;
+        bottom: 20px;
+        left: 7vw;
     
         background-image: url("../../assets/search.png");
         background-color: transparent;

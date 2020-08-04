@@ -385,7 +385,7 @@
   }
   .content__searchBar {
     width: 45%;
-    height: 1vh;
+    height: 0.1vh;
     padding: 2%;
     margin-top: -3%;
     margin-left: 2.5%;
@@ -395,8 +395,8 @@
   }
   .content__input {
     position: relative;
-    bottom: 46px;
-    left: -5px;
+    bottom: 35px;
+    left: 0;
     width: 75%;
     border: none;
     background-color: transparent;
@@ -406,14 +406,14 @@
   }
   .content__button {
     position: relative;
-    bottom: 24px;
-    left: 6vw;
+    bottom: 20px;
+    left: 7vw;
     background-image: url("../../assets/search.png");
     background-color: transparent;
     background-size: contain;
     border: none;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
   }
   .content__button--click {
     background-color: transparent;
