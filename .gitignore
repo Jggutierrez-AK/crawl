@@ -5,6 +5,20 @@
 *.sass.map
 *.scss.map
 
-.vscode
+logs
+*.log
 
-.node_modules
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.nyc_output
+.grunt
+build/Release
+node_modules
+.lock-wscript
+test.xunit
+dist
+
+.vscode
